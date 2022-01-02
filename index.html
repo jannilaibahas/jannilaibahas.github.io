@@ -1,245 +1,237 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
 
-    <!-- bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
-
-    <!-- My css -->
-    <link rel="stylesheet" href="style.css" />
-    <title>MyPortfolio bootstrap5</title>
+    <title>My Portfolio</title>
   </head>
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary shadow">
-      <div class="container">
-        <a class="navbar-brand" href="#home">JASoft.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contack">Contack</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- akhir navbar -->
+  <body>
 
-    <!-- jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/janni.png" alt="Janni Laibahas" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Janni Laibahas</h1>
-      <p class="lead">Web Developer | Software House</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,0L48,32C96,64,192,128,288,170.7C384,213,480,235,576,208C672,181,768,107,864,112C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir jumbotron -->
+<!-- navbar -->
 
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, blanditiis aut! Architecto aperiam ipsum perferendis quidem nulla consequatur repellendus fugiat.</p>
-          </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repellat, unde, adipisci itaque, iusto ut in quae non deleniti laborum officia minus aliquam exercitationem nobis.</p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#a2d9ff"
-          fill-opacity="1"
-          d="M0,0L48,10.7C96,21,192,43,288,53.3C384,64,480,64,576,64C672,64,768,64,864,101.3C960,139,1056,213,1152,213.3C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- akhir about -->
-
-    <!-- projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-md-4 mb 3">
-            <div class="card">
-              <img src="img/myprojects/1.jpg" class="card-img-top" alt="project1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb 3">
-            <div class="card">
-              <img src="img/myprojects/2.jpg" class="card-img-top" alt="project2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb 3">
-            <div class="card">
-              <img src="img/myprojects/3.jpg" class="card-img-top" alt="project3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb 3">
-            <div class="card">
-              <img src="img/myprojects/4.jpg" class="card-img-top" alt="project4" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb 3">
-            <div class="card">
-              <img src="img/myprojects/5.jpg" class="card-img-top" alt="project5" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#f3f4f5"
-          fill-opacity="1"
-          d="M0,320L48,277.3C96,235,192,149,288,138.7C384,128,480,192,576,213.3C672,235,768,213,864,192C960,171,1056,149,1152,128C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir project -->
-
-    <!-- contack -->
-    <section id="contack">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col">
-            <h2>Contack Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="portfolio-to-google-sheet">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap </label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan </label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Send</button>
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#a2d9ff"
-          fill-opacity="1"
-          d="M0,320L48,288C96,256,192,192,288,181.3C384,171,480,213,576,234.7C672,256,768,256,864,261.3C960,267,1056,277,1152,240C1248,203,1344,117,1392,74.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- akhir contack -->
-
-    <!-- footer -->
-    <div class="footer bg-primary text-center text-white">
-      <p>Created with <i class="bi bi-heart-fill"></i> by <a href="https://www.youtube.com/c/jonijudeajames" class="text-white fw-bold btn btn-danger" target="_blank">JASoft.</a></p>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+  <a class="navbar-brand" href="#">Janni Laibahas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#About">About</a>
+      <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+      <a class="nav-item nav-link disabled" href="#contack">Contact</a>
     </div>
-    <!-- akhir footer -->
+  </div>
+  </div>
+</nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<!-- jumbotron -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <img src="img/janni.png" class="img-circle" width="25%"alt="">
+    <h1 class="display-4">Janni Laibahas</h1>
+    <p class="lead">Welcome to My Website.</p>
+  </div>
+</div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+<!-- about -->
 
-    <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbzH-eQh9_uvNRKnzpNQYtx65G_qPlJNyoh9BVt2GUzM5eNy4sNtIAETVTEd2meBNYq7/exec";
-      const form = document.forms["portfolio-to-google-sheet"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const btnMyalert = document.querySelector(".my-alert");
+<section id="About" class="About">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2>About</h2>
+      </div>
+    </div>
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-5 text-justify">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-md-5 text-justify">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        // ketika tombol submit diklik
-        //tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle("d-none");
-        btnKirim.classList.toggle("d-none");
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            // ketika tombol submit diklik
-            //tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle("d-none");
-            btnKirim.classList.toggle("d-none");
-            //tampilkan alert
-            btnMyalert.classList.toggle("d-none");
-            //reset form
-            form.reset();
+<!-- portfolio -->
 
-            console.log("Success!", response);
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
+<section id="portfolio" class="portfolio bg-light pb-4">
+  <div class="container">
+    <div class="row mb-5 pt-4">
+      <div class="col text-center">
+        <h2>Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md">
+        <div class="card">
+          <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md">
+        <div class="card">
+          <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contack -->
+
+<section class="contack mb-5" id="contack">
+  <div class="container">
+    <div class="row pt-4 mb-4">
+      <div class="col text-center">
+        <h2>Contack Us</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <div class="card text-white bg-primary mb-3 text-center">
+          
+          <div class="card-body">
+            <h5 class="card-title">Contack Us</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item"><h1>Location</h1></li>
+            <li class="list-group-item">My Office</li>
+            <li class="list-group-item">Pedurungan Baru II/71</li>
+            <li class="list-group-item">Semarang</li>
+            <li class="list-group-item">Jawa Tengah</li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-6">
+         <form action="">
+           <div class="form-group">
+            <label for="nama">nama</label>
+            <input type="text" id="nama" class="form-control" placeholder="Masukan nama">
+           </div>
+           <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" class="form-control" placeholder="Masukan email">
+           </div> 
+           <div class="form-group">
+            <label for="telp">No telp</label>
+            <input type="tel" id="telp" class="form-control" placeholder="Masukan no.telp">
+           </div>  
+           <select class="form-control">
+             <option>-- Pilih kategori --</option>
+             <option>web design</option>
+             <option>web developer</option>
+           </select> 
+           <div class="form-group">
+              <label for="Pesan">pesan</label>
+              <textarea class="form-control" rows="10" placeholder="Masukan pesan"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+         </form>
+      </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer class="bg-dark text-white pt-3 pb-3">
+  <div class="container">
+
+    <div class="row">
+      <div class="col text-center">
+        <p>Copyright 2021 | built by <a href="http://instagram.com/jannilaibahas" target="_blank">Jannilaibahas.</a></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col text-center">
+          <a href="http://youtube.com/jonijudeajames" class="btn btn-danger" target="_blank">Subscribe to Youtube</a>
+      </div>
+    </div>
+
+  </div>
+  
+</footer>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
